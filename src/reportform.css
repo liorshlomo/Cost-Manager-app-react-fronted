@@ -1,0 +1,89 @@
+/* Lior Shlomo 208011197*/
+/* Zohar Hazani 209189380*/
+
+/* Table styles */
+/* Table for displaying matching cost reports */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+/* Column headers for the matching cost report table: Category, Description, and Sum of costs */
+th, td {
+    text-align: center;
+    padding: 13px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    color: #333;
+    border-bottom: 1px solid #333;
+    width: 200px;
+    /* Column headers for the matching cost report table: Category, Description, and Sum of costs */
+}
+
+/* A row for displaying a single matching cost report */
+.tr {
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Highlight row when hovering over it */
+.tr:hover{
+    background-color: #ffe6b3;
+    color:#333;
+}
+
+/* Input field for date picker */
+.textBoxReport{
+    display: inline-block;
+    marginRight: '10px';
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 20px;
+    max-width: 280px;
+    overflow: hidden;
+    border-radius: 5px
+}
+
+/* Label for the date picker and 'Get Report' button */
+p{
+    margin-bottom: 3px;
+}
+
+/* Container for the date picker and 'Get Report' button */
+.dateAndGetReportButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Input field for date picker */
+.textBoxReport {
+    margin: 0 10px;
+    border-bottom-color: #ffe6b3;
+    border-top-color: #ffe6b3;
+    border-top-style: hidden;
+    border-left: #ffe6b3;
+    border-right: #ffe6b3;
+    width: 700px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+/* Message displayed when no reports are found */
+.pNoReportFound{
+    margin-bottom: 3px;
+    font-size: 17px;
+    font-family: Times New Roman;
+    color: #333;
+    text-align: center;
+    background-color: #ffe6b3;
+    border-radius: 15px;
+}
+

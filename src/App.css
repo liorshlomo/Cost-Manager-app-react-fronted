@@ -1,0 +1,130 @@
+/* Lior Shlomo 208011197*/
+/* Zohar Hazani 209189380*/
+
+/* Styles for the App component */
+/* Defines the main container of the application */
+.App {
+  align-items: center; /* aligns flex items along the cross axis */
+}
+
+/* Styles for the Cost manager headline */
+h1 {
+  color: #333;
+  font-size: 3rem;
+}
+
+/* Styles for the two main buttons elements */
+.myButton {
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-grid;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: Times New Roman;
+  margin: 10px 20px;
+  margin-left: 20px ;
+}
+
+/* Styles for the button element when hovered */
+.myButton:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0); /* moves the button down slightly when hovered */
+  background-color: #ffe6b3; /* changes the background color of the button when hovered */
+  color: #333; /* changes the text color of the button when hovered */
+}
+
+/* Styles for the button element when focused */
+.myButton:focus {
+  box-shadow:rgba(0, 0, 0, .3) 2px 8px 4px -6px; /* adds a box shadow to the button when focused */
+}
+
+/* Styles for the buttons container */
+.buttons{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the App header *//* centers the items along the main axis */
+.App-header {
+  background-color: #f1f1f1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: Times New Roman;
+}
+
+/* Styles for the Cost Manager header */
+.costManagerHeader {
+  letter-spacing: 8px; /* sets the letter spacing of the text */
+  margin: 10px 50px; /* sets the margin of the text */
+}
+
+/* The .img class sets the properties for an image element, including its width, height,
+and centering it horizontally using margin properties.*/
+.img{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*The .myButtonS class defines the properties for the buttons elements that send the cost to the local storage
+and to the button that get the report from the local storage,
+including its background color, font color, font size, padding, border, and cursor type.
+ It also includes hover and focus effects that change the background color and add a box-shadow to the button.*/
+.myButtonS {
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 6px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: Times New Roman;
+  align-self: center;
+  margin: 10px 60px;
+}
+
+.myButtonS:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+  background-color:#ffe6b3;
+  color: #333;
+}
+
+/*.myButtonS:focus selector is used to apply a box shadow to the button when it is in focus. */
+.myButtonS:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+/*The .about class sets the text alignment, font size, and color for a section of text.
+In this case, it is used to style a block of text centered on the lower part of the page with a margin-top of 50px.*/
+.about{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 17px;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+

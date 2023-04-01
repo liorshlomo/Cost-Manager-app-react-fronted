@@ -1,0 +1,56 @@
+/* Lior Shlomo 208011197*/
+/* Zohar Hazani 209189380*/
+
+
+/*The .textBox class defines styles for text input fields. It sets the position, width,
+height, and border styles of the input, and also sets a maximum width to limit the size of the input field.
+The border-radius property sets the rounded corners of the input box.
+The border-color properties set the color of the border,
+and border-top-style is set to "hidden" to hide the top border.*/
+.textBox {
+    position: relative;
+    margin: auto;
+    width: 700px;
+    height: 30px;
+    max-width: 280px;
+    overflow: hidden;
+    border-radius: 15px;
+    border-color: #ffe6b3;
+    border-bottom-color: #ffe6b3;
+    border-top-color: #ffe6b3;
+    border-top-style: hidden;
+    border-left: #ffe6b3;
+}
+/*The .p class defines styles for the labels associated with each input field.
+It sets the font size(as all the written text in the page), font family, and color(black) of the label text.*/
+.p{
+
+    margin-bottom: 3px;
+    font-size: 17px;
+    font-family: Times New Roman;
+    color: #333;
+}
+
+/*The .scrollbar class defines styles for the dropdown menu that allows the user to select a category.
+It sets the font size, width, height, and border styles of the dropdown, and also sets a maximum width to limit its size.
+The overflow property is set to "hidden" to hide the scrollbar. The color property sets the color of the dropdown text.*/
+.scrollBar{
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    height: 35px;
+    max-width: 700px;
+    border-radius: 15px;
+    overflow: hidden;
+    border-color: #ffe6b3;
+    color: #333;
+}
+
+/*The .ChooseOption class defines styles for the default option displayed in the dropdown menu.
+It sets the color of the default text to gray.*/
+.chooseOption {
+    color: gray;
+}
+
+
